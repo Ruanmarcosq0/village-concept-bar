@@ -50,10 +50,21 @@ const localBusiness = {
   image: 'https://files.pensanoevento.com.br/images/eventos/grupos/logo_village.png'
 }
 
+const typography = `
+  :root{--village-font:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+  html,body,button,input,textarea,select,*{font-family:var(--village-font)!important}
+  body{font-weight:400;letter-spacing:-.01em}
+  h1,h2,h3,h4,h5,h6,.hero-word,.footer-mark>div,.event-placeholder{font-family:var(--village-font)!important;font-weight:800!important;letter-spacing:-.045em!important}
+  .hero-word{font-weight:900!important;letter-spacing:-.055em!important}
+  .nav-left,.nav-right,.top-strip,.tiny-kicker,.hero-side-copy,.solid-cta,.outline-cta,.line-cta,.badge,.event-card-actions,.footer-columns,.mobile-action-bar{letter-spacing:.06em!important}
+  p,.action-tile p,.story-copy p,.featured-info p,.reservations-copy p{line-height:1.65}
+`
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="pt-BR">
       <body>
+        <style dangerouslySetInnerHTML={{ __html: typography }} />
         {children}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusiness) }} />
       </body>
