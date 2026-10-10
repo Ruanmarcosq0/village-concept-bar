@@ -1,0 +1,11 @@
+# Village Concept Bar
+
+Village Concept Bar is a nightlife and events venue in São José, Santa Catarina, Brazil.
+
+Address: Rua Domingos André Zanini, 277 — Barreiros — São José/SC.
+Instagram: https://www.instagram.com/villageconceptbar/
+Official ticket and guest-list platform: https://www.pensanoevento.com.br/locais/111/village-concept-bar
+
+The official website centralizes event agenda, ticket links, guest lists, reservations, celebration inquiries, location and contact information.
+
+Event pages are available under /eventos/[slug] and link to the official external checkout when tickets are available.
