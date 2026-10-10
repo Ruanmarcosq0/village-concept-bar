@@ -1,0 +1,9 @@
+/* Village typography system — post-hero only */
+.action-band,.story,.featured,.agenda,.reservas,.footer,.mobile{font-family:"Helvetica Neue",Arial,sans-serif}
+.story h2,.featured h2,.agenda h2,.reservas h2{font-size:clamp(36px,4.5vw,58px);line-height:.96;font-weight:800;letter-spacing:-.025em}
+.featured h3{font-size:clamp(30px,3vw,44px);line-height:1;font-weight:800;letter-spacing:-.02em}
+.action h2,.card-body h3,.res-list strong{font-family:inherit;font-weight:700;letter-spacing:.015em}
+.action p,.story p,.featured p,.reservas p,.card-body p,.card-body span,.footer small,.footer-cols a,.footer-cols span{font-family:inherit;font-size:13px;line-height:1.6}
+.kicker,.action span,.action b,.badge,.card-actions,.footer-cols strong{font-family:inherit;font-size:10px;letter-spacing:.14em}
+.footer-mark{font-family:inherit;font-size:42px;font-weight:800;letter-spacing:.1em}
+@media(max-width:700px){.story h2,.featured h2,.agenda h2,.reservas h2{font-size:36px}.featured h3{font-size:30px}.action p,.story p,.featured p,.reservas p,.card-body p,.card-body span,.footer small,.footer-cols a,.footer-cols span{font-size:13px}}
